@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeVerse</title>
+    <!-- <link rel="stylesheet" href="views/css/style.css"> -->
+     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!--------  Navbar Section----->
+<header class="navbar">
+  <div class="logo">ShoeVerse</div>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html"><i class="fas fa-user"></i></a>
+    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+  </nav>
+  <div class="menu-icon" id="menuIcon">
+    <i class="fas fa-bars"></i>
+  </div>
+</header>
+
+
+
+<!---------Hero Section------------>
+
+<div class="hero">
+  <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+    <h1>Step into Style</h1>
+    <p>Discover premium shoes with unbeatable comfort and style.</p>
+    <a href="products.html" class="btn">Shop Now</a>
+  </div>
+
+  <div class="hero-slider" data-aos="fade-left" data-aos-duration="1000">
+    <div class="slides">
+      <img src="shoe-7-Photoroom.png" alt="Shoe 1">
+      <img src="slide-2-Photoroom.png" alt="Shoe 2">
+      <img src="shoe-9-Photoroom.png" alt="Shoe 3">
+      <img src="shoe-5-Photoroom.png" alt="Shoe 4">
+    </div>
+  </div>
+</div>
+<!------------End Of Hero Section ----------->
+
+
+ <!-- Featured Section -->
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+
+<div class="product-card"
+       data-id="1"
+       data-name="Casual Sneakers"
+       data-price="45.00"
+       data-image="shoe-9-Photoroom.png">
+    <img src="shoe-9-Photoroom.png" alt="Casual Sneakers" />
+    <h3>Casual Sneakers</h3>
+    <p>$45.00</p>
+    <button class="add-to-cart"
+            data-id="1"
+            data-name="Casual Sneakers"
+            data-price="45.00"
+            data-image="shoe-9-Photoroom.png">Add to Cart</button>
+  </div>
+
+
+      <div class="product-card"
+       data-id="2"
+       data-name="Sneakers"
+       data-price="43.00"
+       data-image="slide-2-Photoroom.png">
+    <img src="slide-2-Photoroom.png" alt="Sneakers" />
+    <h3>Sneakers</h3>
+    <p>$43.00</p>
+    <button class="add-to-cart"
+            data-id="2"
+            data-name="Sneakers"
+            data-price="43.00"
+            data-image="slide-2-Photoroom.png">Add to Cart</button>
+  </div>
+
+
+  <div class="product-card"
+       data-id="3"
+       data-name="Men Shoes"
+       data-price="41.00"
+       data-image="slide-4.jpg">
+    <img src="slide-4.jpg" alt="Men Shoes" />
+    <h3>Men Shoes</h3>
+    <p>$41.00</p>
+    <button class="add-to-cart"
+            data-id="3"
+            data-name="Men Shoes"
+            data-price="41.00"
+            data-image="slide-4.jpg">Add to Cart</button>
+  </div>
+
+
+  <div class="product-card"
+       data-id="4"
+       data-name="Women Shoes"
+       data-price="40.00"
+       data-image="shoe-5-Photoroom.png">
+    <img src="shoe-5-Photoroom.png" alt="Women Shoes" />
+    <h3>Women Shoes</h3>
+    <p>$40.00</p>
+    <button class="add-to-cart"
+            data-id="4"
+            data-name="Women Shoes"
+            data-price="40.00"
+            data-image="shoe-5-Photoroom.png">Add to Cart</button>
+  </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 MyShop. All rights reserved.</p>
+  </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js">
+    
+    </script>
+    <script>
+         AOS.init();
+         
+    </script>
+     
+    <!-- <script src="script.js"></script> -->
+      <script src="products.js"></script>
+      
+    </script>
+</body>
+</html>

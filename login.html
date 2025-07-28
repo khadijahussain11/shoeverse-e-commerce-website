@@ -1,0 +1,91 @@
+<!-- Only the input name/class attributes are updated -->
+<!-- Full login.html with fixed input names -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login/Sign Up</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">ShoeVerse</div>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html"><i class="fas fa-user"></i></a>
+    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+  </nav>
+  <div class="menu-icon" id="menuIcon">
+    <i class="fas fa-bars"></i>
+  </div>
+</header>
+
+<div class="auth-container">
+  <div class="toggle-buttons">
+    <button id="loginBtn" class="toggle active">Login</button>
+    <button id="signupBtn" class="toggle">Sign Up</button>
+  </div>
+
+  <div class="auth-form">
+    <!-- Login Form -->
+    <form id="loginForm" class="form active">
+      <h2>Login</h2>
+      <div class="input-group">
+        <input type="email" name="login-email" class="login-email" required />
+        <label>Email</label>
+      </div>
+      <span class="msg"></span>
+      <div class="input-group">
+        <input type="password" name="login-password" class="login-password" required />
+        <label>Password</label>
+        <span class="msg"></span>
+      </div>
+      <a href="#" class="forgot-password">Forgot Password?</a>
+      <button type="submit">Login</button>
+      <span class="signup-msg"><b>If you have not registered, then <a href="login.html">signup</a> first</b></span>
+    </form>
+
+    <!-- Signup Form -->
+    <form id="signupForm" class="form">
+      <h2>Sign Up</h2>
+      <div class="input-group">
+        <input type="text" name="signup-name" class="signup-name" required />
+        <label>Full Name</label>
+      </div>
+      <span class="msg"></span>
+      <div class="input-group">
+        <input type="email" name="signup-email" class="signup-email" required />
+        <label>Email</label>
+      </div>
+      <span class="msg"></span>
+      <div class="input-group">
+        <input type="password" name="signup-password" class="signup-password" required />
+        <label>Password</label>
+      </div>
+      <span class="msg"></span>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>&copy; 2025 MyShop. All rights reserved.</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+<!-- <script src="../public/js/login.js"></script> -->
+ <script src="login.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

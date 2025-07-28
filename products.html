@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeVerse-Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+        <!--------  Navbar Section----->
+<header class="navbar">
+  <div class="logo">ShoeVerse</div>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html"><i class="fas fa-user"></i></a>
+    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+  </nav>
+  <div class="menu-icon" id="menuIcon">
+    <i class="fas fa-bars"></i>
+  </div>
+</header>
+    
+<section class="product-page">
+  <h2 class="section-title" data-aos="fade-right" data-aos-duration="1000">Explore Our Products</h2>
+
+  
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="Search products..." />
+    <select>
+      <option>All</option>
+      <option>Category 1</option>
+      <option>Category 2</option>
+    </select>
+  </div> 
+
+  <!-- Just show the corrected product card section -->
+<div class="product-grid" id="productGrid">
+
+  <div class="product-card"
+       data-id="1"
+       data-name="Casual Sneakers"
+       data-price="45.00"
+       data-image="slide-3.jpg">
+    <img src="slide-3.jpg" alt="Casual Sneakers" />
+    <h3>Casual Sneakers</h3>
+    <p>$45.00</p>
+    <button class="add-to-cart"
+            data-id="1"
+            data-name="Casual Sneakers"
+            data-price="45.00"
+            data-image="slide-3.jpg">Add to Cart</button>
+  </div>
+
+
+      <div class="product-card"
+       data-id="2"
+       data-name="Sneakers"
+       data-price="43.00"
+       data-image="slide-2-Photoroom.png">
+    <img src="slide-2-Photoroom.png" alt="Sneakers" />
+    <h3>Sneakers</h3>
+    <p>$43.00</p>
+    <button class="add-to-cart"
+            data-id="2"
+            data-name="Sneakers"
+            data-price="43.00"
+            data-image="slide-2-Photoroom.png">Add to Cart</button>
+  </div>
+
+
+  <div class="product-card"
+       data-id="3"
+       data-name="Men Shoes"
+       data-price="41.00"
+       data-image="slide-4.jpg">
+    <img src="slide-4.jpg" alt="Men Shoes" />
+    <h3>Men Shoes</h3>
+    <p>$41.00</p>
+    <button class="add-to-cart"
+            data-id="3"
+            data-name="Men Shoes"
+            data-price="41.00"
+            data-image="slide-4.jpg">Add to Cart</button>
+  </div>
+
+
+  <div class="product-card"
+       data-id="4"
+       data-name="Women Shoes"
+       data-price="40.00"
+       data-image="shoe-5-Photoroom.png">
+    <img src="shoe-5-Photoroom.png" alt="Women Shoes" />
+    <h3>Women Shoes</h3>
+    <p>$40.00</p>
+    <button class="add-to-cart"
+            data-id="4"
+            data-name="Women Shoes"
+            data-price="40.00"
+            data-image="shoe-5-Photoroom.png">Add to Cart</button>
+  </div>
+
+
+
+   <div class="product-card"
+       data-id="5"
+       data-name="Sandals"
+       data-price="55.00"
+       data-image="shoe-7-Photoroom.png">
+    <img src="shoe-7-Photoroom.png" alt="Sandals" />
+    <h3>Sandals</h3>
+    <p>$55.00</p>
+    <button class="add-to-cart"
+            data-id="5"
+            data-name="Sandals"
+            data-price="55.00"
+            data-image="shoe-7-Photoroom.png">Add to Cart</button>
+  </div>
+
+
+   <div class="product-card"
+       data-id="6"
+       data-name="White Sneakers"
+       data-price="35.00"
+       data-image="shoe-9-Photoroom.png">
+    <img src="shoe-9-Photoroom.png" alt="White Sneakers" />
+    <h3>White Sneakers</h3>
+    <p>$35.00</p>
+    <button class="add-to-cart"
+            data-id="6"
+            data-name="White Sneakers"
+            data-price="35.00"
+            data-image="shoe-9-Photoroom.png">Add to Cart</button>
+  </div>
+
+
+  <div class="product-card"
+       data-id="7"
+       data-name="Black Sneakers"
+       data-price="41.00"
+       data-image="shoe-5-Photoroom.png">
+    <img src="shoe-5-Photoroom.png" alt="Black Sneakers" />
+    <h3>Black Sneakers</h3>
+    <p>$41.00</p>
+    <button class="add-to-cart"
+            data-id="7"
+            data-name="Black Sneakers"
+            data-price="41.00"
+            data-image="shoe-5-Photoroom.png">Add to Cart</button>
+  </div>
+
+  <div class="product-card"
+       data-id="8"
+       data-name="Casual Wear"
+       data-price="48.00"
+       data-image="slide-3.jpg">
+    <img src="slide-3.jpg" alt="Casual Wear" />
+    <h3>Casual wear</h3>
+    <p>$48.00</p>
+    <button class="add-to-cart"
+            data-id="8"
+            data-name="Casual Wear"
+            data-price="48.00"
+            data-image="slide-3.jpg">Add to Cart</button>
+  </div>
+
+
+</div>
+</div>
+  <p id="no-results" style="display: none; text-align:center; color: red; font-weight: bold;">No matching products found.</p>
+
+</section>
+ 
+
+<!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 MyShop. All rights reserved.</p>
+  </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+         AOS.init();
+    </script>
+    <script src="products.js"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

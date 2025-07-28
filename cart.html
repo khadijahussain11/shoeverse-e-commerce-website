@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="navbar">
+  <div class="logo">ShoeVerse</div>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html"><i class="fas fa-user"></i></a>
+    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+  </nav>
+  <div class="menu-icon" id="menuIcon">
+    <i class="fas fa-bars"></i>
+  </div>
+</header>
+
+ <main class="cart-container">
+    <h2>Your Shopping Cart</h2>
+    <div id="cart-items" class="cart-items">
+    
+    </div>
+    <div class="cart-summary">
+      <h3>Total: <span id="total-price">$0.00</span></h3>
+      <div class="btns">
+      <button class="btn checkout-btn">Proceed to Checkout</button>
+      <a href="products.html" class="btn continue-btn">Continue Shopping</a></div>
+      </div>
+
+    </div>
+  </main>
+
+
+
+<footer class="footer">
+    <p>&copy; 2025 MyShop. All rights reserved.</p>
+  </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js">
+    
+    </script>
+    <script>
+         AOS.init();
+    </script>
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

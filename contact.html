@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+  <div class="logo">ShoeVerse</div>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html"><i class="fas fa-user"></i></a>
+    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+  </nav>
+  <div class="menu-icon" id="menuIcon">
+    <i class="fas fa-bars"></i>
+  </div>
+</header>
+
+ <section class="contact-container" data-aos="fade-up">
+    <div class="form-section">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you. Please fill out the form below.</p>
+      <form id="contactForm">
+        <div class="form-group">
+          <input type="text" id="name" required />
+          <label for="name">Your Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" required />
+          <label for="email">Your Email</label>
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="5" required></textarea>
+          <label for="message">Your Message</label>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <div class="info-section">
+      <h3>Reach Us</h3>
+      <div class="info-item"><i class="fas fa-envelope"></i> support@yourstore.com</div>
+      <div class="info-item"><i class="fas fa-phone"></i> +92 300 1234567</div>
+      <div class="info-item"><i class="fas fa-map-marker-alt"></i> Rawalpindi, Pakistan</div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </section>
+    
+
+<!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 MyShop. All rights reserved.</p>
+  </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js">
+    
+    </script>
+    <script>
+         AOS.init();
+    </script>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
